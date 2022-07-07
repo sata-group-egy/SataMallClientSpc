@@ -1,0 +1,35 @@
+.blogs-parent {
+  overflow: hidden;
+}
+
+.blogs-parent .blog {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.blogs-parent .blog .img-container img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.blogs-parent .blog .blog-title,
+.blogs-parent .blog .created-time {
+  padding-right: 5px;
+}
+
+.blogs-parent .blog .blog-title h4 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 7px 0;
+}
+
+.blogs-parent .blog .created-time {
+  color: #999999;
+}
+
+.blogs-parent .blog .created-time i,
+.blogs-parent .blog .created-time span {
+  font-size: 0.7em;
+}

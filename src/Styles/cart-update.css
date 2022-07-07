@@ -1,0 +1,50 @@
+table.update-cart-parent {
+  border: 1px solid #ccc;
+  width: 100%;
+  overflow-x: auto;
+  margin: auto;
+  text-align: center;
+  box-shadow: 1px 1px 5px #ddd, -1px -1px 5px #ddd;
+}
+
+table.update-cart-parent img {
+  width: 90px;
+  height: 90px;
+}
+
+table.update-cart-parent thead th,
+table.update-cart-parent tbody tr td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  table.update-cart-parent {
+    display: block;
+  }
+}
+
+table.update-cart-parent tbody tr td .table-price {
+  color: #ff9600;
+  font-weight: bold;
+}
+
+table.update-cart-parent tbody tr td input {
+  outline: none;
+  border: none;
+  width: 40px;
+  text-align: center;
+  margin: 0 5px;
+}
+
+table.update-cart-parent tbody tr td button {
+  background-color: #fff;
+  outline: none;
+  border: none;
+}
+
+table.update-cart-parent tbody tr td .qty-parent {
+  border: 1px solid #ccc;
+  width: 100px;
+  margin: auto;
+}

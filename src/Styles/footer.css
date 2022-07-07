@@ -1,0 +1,116 @@
+.footer-top .container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ff9600;
+  padding: 20px 5px;
+}
+
+@media (max-width: 991px) {
+  .footer-top .container-fluid {
+    flex-direction: column;
+  }
+}
+
+.footer-top .options ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 15px;
+}
+
+.footer-top .options ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-top .social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-top .social > div {
+  background-color: #e68700;
+  padding: 7px;
+  height: 30px;
+  width: 30px;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-center-parent {
+  padding: 40px 0;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.footer-center-parent .footer-center .title {
+  position: relative;
+}
+
+.footer-center-parent .footer-center .title:not(.logo):after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  height: 2px;
+  width: 70px;
+  background-color: #ff9600;
+}
+
+.footer-center-parent .footer-center ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px;
+}
+
+.footer-center-parent .footer-center ul li {
+  padding: 8px;
+  margin-right: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  footer .foot-info {
+    text-align: center;
+  }
+  .footer-center-parent .footer-center .title:not(.logo):after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.footer-center-parent .footer-center ul li i.en {
+  margin-right: 0.5rem !important;
+}
+
+.footer-center-parent .footer-center ul li i.ar {
+  margin-left: 0.5rem !important;
+}
+
+.bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.bottom-footer .right img {
+  max-width: 100%;
+}
+
+.bottom-footer a {
+  color: #ff9600;
+  font-weight: bold;
+  cursor: pointer;
+}

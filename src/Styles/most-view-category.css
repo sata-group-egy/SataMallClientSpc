@@ -1,0 +1,37 @@
+/* Start Of Last Section */
+.last-header-section {
+  background-color: #f9f9f9;
+  direction: rtl;
+}
+
+.last-header-section .container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+.last-header-section .top-categories {
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.last-header-section .cat-self ul {
+  list-style: none;
+  margin-top: 15px;
+  justify-content: center;
+  margin-right: 150px;
+}
+
+.last-header-section .cat-self ul li {
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 0.9em;
+  color: #7f7f7f;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.last-header-section .cat-self ul li:hover {
+  color: #ff9600;
+}
+
+/* End Of Last Section */

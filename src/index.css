@@ -1,0 +1,33 @@
+body {
+  overflow-x: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.text-orange,
+a:hover {
+  color: #ff9600;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.outline-0 {
+  outline: none;
+}

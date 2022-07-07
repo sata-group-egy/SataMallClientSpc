@@ -1,0 +1,24 @@
+.banners-sale-parent {
+  position: relative;
+}
+
+.banners-sale-parent .img-container img {
+  max-width: 100%;
+}
+
+.banners-sale-parent .arrow {
+  position: absolute;
+  top: 50%;
+  color: white;
+  font-size: 1.5em;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.banners-sale-parent .arrow-left {
+  left: 20%;
+}
+
+.banners-sale-parent .arrow-right {
+  right: 20%;
+}

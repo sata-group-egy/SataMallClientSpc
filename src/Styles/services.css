@@ -1,0 +1,40 @@
+.our-services {
+  border: 1px solid #ebebeb;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 15px;
+}
+
+.our-services > div:not(:last-child) {
+  border-right: 1px solid #ebebeb;
+}
+
+.our-services > div .img-container {
+  padding: 10px;
+}
+
+.our-services > div .title {
+  margin-top: 15px;
+}
+
+.our-services > div .title h5 {
+  font-size: 1.1em;
+}
+
+.our-services > div .title p {
+  text-align: center;
+  font-size: 0.9em;
+  color: #8d8d8d;
+}
+
+@media (max-width: 991px) {
+  .our-services {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .our-services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

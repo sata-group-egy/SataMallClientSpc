@@ -1,0 +1,96 @@
+.auth-parent {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: 999;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-parent .close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  background-color: #ff9600;
+  color: white;
+  cursor: pointer;
+}
+
+.auth-parent .login-parent {
+  width: 300px;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.auth-parent .login-parent h5 {
+  margin-top: 15px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+.auth-parent .login-parent .login-form > div {
+  margin-top: 15px;
+}
+
+.auth-parent .login-parent .login-form input {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  caret-color: #aaa;
+}
+
+.inp-pass-wrong {
+  color: #e62e04;
+  font-size: 0.8em;
+}
+
+.auth-parent .login-parent .login-form .submit-parent .submit-btn,
+.auth-parent .login-parent .ask-register .ask-register-btn {
+  width: 80%;
+  margin: auto;
+  outline: none;
+  border: 1px solid #ff9600;
+  background-color: #ff9600;
+  color: white;
+  font-weight: bold;
+  padding: 7px 5px;
+  border-radius: 5px;
+}
+
+.auth-parent .login-parent .img-parent .img-container {
+  position: relative;
+}
+
+.auth-parent .login-parent .img-parent .camera-icon {
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+}
+
+.auth-parent .login-parent .img-parent .camera-icon.en {
+  left: 10px;
+}
+
+.auth-parent .login-parent .img-parent .camera-icon.ar {
+  right: 10px;
+}
+
+.auth-parent .login-parent .img-parent .user-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}

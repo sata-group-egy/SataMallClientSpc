@@ -1,0 +1,44 @@
+.bread-crumb-container {
+  background-color: #f5f5f5;
+}
+
+.bread-crumb-container .bread-crumb {
+  padding: 15px;
+}
+
+.bread-crumb-container .bread-crumb ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.bread-crumb-container .bread-crumb ul li {
+  display: inline-block;
+  font-weight: bold;
+  position: relative;
+}
+
+.bread-crumb-container .bread-crumb ul li.en {
+  padding-left: 20px;
+}
+
+.bread-crumb-container .bread-crumb ul li.ar {
+  padding-right: 20px;
+}
+
+.bread-crumb-container .bread-crumb ul li:not(:last-child):after {
+  content: " / ";
+  position: absolute;
+  top: 0;
+}
+
+.bread-crumb-container .bread-crumb ul li.en:not(:last-child):after {
+  left: 5px;
+}
+
+.bread-crumb-container .bread-crumb ul li.ar:not(:last-child):after {
+  right: 5px;
+}
+
+.bread-crumb-container .bread-crumb ul li:last-child {
+  font-weight: normal;
+}

@@ -1,0 +1,27 @@
+.blog-detail-parent .blog-section .img-container img {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .blog-detail-parent .center {
+    order: -1 !important;
+  }
+}
+
+.blog-detail-parent .blog-description .by-whom h3 {
+  font-size: 1.4em;
+}
+
+.blog-detail-parent .blog-description .by-whom .person-created-date i,
+.blog-detail-parent .blog-description .by-whom .person-created-date span {
+  font-size: 0.8em;
+}
+
+.blog-detail-parent
+  .blog-description
+  .by-whom
+  .person-created-date
+  .blog-description
+  p {
+  line-height: 1.8;
+}

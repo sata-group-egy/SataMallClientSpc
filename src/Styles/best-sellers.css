@@ -1,0 +1,179 @@
+.best-sellers-deals .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebebeb;
+  position: relative;
+}
+
+.best-sellers-deals ul.ar {
+  list-style: none;
+  margin-right: -30px;
+}
+
+.best-sellers-deals ul.en {
+  list-style: none;
+  margin-left: -30px;
+}
+
+.best-sellers-deals ul li {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  color: #aaaaaa;
+}
+
+.best-sellers-deals ul li.ar {
+  margin-right: 10px;
+}
+.best-sellers-deals ul li.en {
+  margin-left: 10px;
+}
+
+.best-sellers-deals ul li:hover {
+  color: #ff9600;
+}
+
+.best-sellers-deals ul li:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  right: 30%;
+  height: 2px;
+  width: 30px;
+  background-color: #ff9600;
+}
+
+.best-sellers-deals .title .left h5 {
+  font-size: 1.1em;
+}
+
+.best-sellers-deals .title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 120px;
+  background-color: #ff9600;
+}
+
+.best-sellers-deals .title.ar::after {
+  right: 0;
+}
+.best-sellers-deals .title.en::after {
+  left: 0;
+}
+
+.best-sellers-deals .products .product {
+  display: inline-block;
+  margin: 10px !important;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.prod-usr-option {
+  position: absolute;
+  right: 0px;
+  top: 30px;
+  opacity: 0;
+  z-index: 99;
+  transition: all 0.5s ease-in-out;
+}
+
+.prod-usr-option > div {
+  cursor: pointer;
+  color: white;
+}
+
+.prod-usr-option > div i {
+  font-size: 0.85em;
+  background-color: #595050;
+  padding: 10px;
+  border-radius: 2px;
+  transition: all 0.5s ease-in-out;
+}
+
+.prod-usr-option > div i:hover {
+  background-color: #ff9600;
+}
+
+.best-sellers-deals .products .product:hover > .prod-usr-option,
+.deals .product-deal:hover > .prod-usr-option {
+  opacity: 1;
+  right: 25px;
+}
+
+.best-sellers-deals .products .product .img-container img {
+  max-width: 195px;
+  height: 195px;
+}
+
+.best-sellers-deals .products .product .price h5 {
+  color: #ff9600;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-left: -25px;
+}
+
+.best-sellers-deals .products .product .prod-title h4 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-left: -25px;
+}
+
+.best-sellers-deals .title .right .arrow {
+  cursor: pointer;
+  position: relative;
+  z-index: 999;
+}
+
+.best-sellers-deals .title .right .arrow.arrow-left {
+  margin-right: 10px;
+}
+
+.best-sellers-deals .product-deal {
+  margin-top: -10px;
+  position: relative;
+}
+
+.best-sellers-deals .product-deal .img-container img {
+  height: 70%;
+  max-width: 100%;
+}
+
+.best-sellers-deals .prod-price h5 {
+  color: #ff9600;
+}
+
+.best-sellers-deals h5 {
+  padding-bottom: 3px;
+}
+
+.best-sellers-deals .prod-deal-request {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-sellers-deals .prod-deal-request:last-child {
+  margin-left: -25px;
+}
+
+.best-sellers-deals .prod-deal-request > div {
+  height: 40px;
+  width: 40px;
+  background-color: #ddd;
+  padding: 7px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 0.9em;
+}
+
+.best-sellers-deals .prod-deal-request > span.value {
+  font-size: 0.9em;
+}
